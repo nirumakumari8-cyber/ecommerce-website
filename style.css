@@ -1,0 +1,53 @@
+* {
+        margin: 0;
+            padding: 0;
+                box-sizing: border-box;
+                    font-family: Arial, sans-serif;
+                    }
+
+                    /* Navbar */
+                    .navbar {
+                        background: #0a3cff;
+                            color: white;
+                                padding: 15px;
+                                    display: flex;
+                                        justify-content: space-between;
+                                            align-items: center;
+                                            }
+
+                                            .navbar a {
+                                                color: white;
+                                                    margin-left: 15px;
+                                                        text-decoration: none;
+                                                        }
+
+                                                        /* Hero */
+                                                        .hero {
+                                                            text-align: center;
+                                                                padding: 60px 20px;
+                                                                    background: #f2f2f2;
+                                                                    }
+
+                                                                    .hero button {
+                                                                        padding: 10px 20px;
+                                                                            background: #0a3cff;
+                                                                                color: white;
+                                                                                    border: none;
+                                                                                        cursor: pointer;
+                                                                                        }
+
+                                                                                        /* Products */
+                                                                                        .products {
+                                                                                            display: flex;
+                                                                                                justify-content: center;
+                                                                                                    gap: 20px;
+                                                                                                        padding: 40px;
+                                                                                                        }
+
+                                                                                                        .card {
+                                                                                                            border: 1px solid #ccc;
+                                                                                                                padding: 30px;
+                                                                                                                    width: 150px;
+                                                                                                                        text-align: center;
+                                                                                                                        }
+}
